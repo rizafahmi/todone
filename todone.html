@@ -9,5 +9,17 @@
 </body>
 
 <template name="TodonePanel">
-  Hello, JakartaJS
+  <div class="todone-panel">
+    <ul class="todone-list">
+      {{#each items}}
+        <li class="todone-item">
+          {{> TodoneItem}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+</template>
+
+<template name="TodoneItem">
+  This is an item
 </template>
