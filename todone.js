@@ -1,3 +1,5 @@
+Todones = new Meteor.Collection('todones');
+
 if (Meteor.isClient) {
 }
 
