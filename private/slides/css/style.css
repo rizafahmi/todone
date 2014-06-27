@@ -1,0 +1,53 @@
+form {
+  background: -moz-linear-gradient(-85deg, #eeeee6, #cfceb8) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  line-height: 4.6;
+  margin-top: 2.1em;
+  overflow: hidden;
+  width: 100%;
+}
+
+input[type="text"] {
+  color: #369;
+  font-weight: 300;
+  margin-left: -6.7rem;
+  margin-right: 2.1rem;
+  text-align: right;
+  width: 58rem;
+}
+
+input {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  cursor: auto;
+  font-family: "Lato","Lucida Grande","Tahoma",sans-serif;
+  font-size: 5rem;
+  margin: 0.35em 0 0;
+  margin-bottom: 0.25em;
+}
+
+input[type="submit"] {
+  color: #369;
+  cursor: pointer;
+  font-size: 3.4rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  margin-top: -0.4em;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  color: #cacaca;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  color: #cacaca;  
+}
+
+:-ms-input-placeholder {  
+  color: #cacaca;  
+}
